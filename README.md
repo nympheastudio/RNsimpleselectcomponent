@@ -2,8 +2,6 @@
 react native, simple select component
 
 # usage 
-
-
 import SimpleSelectComponent  from "./SimpleSelectComponent";
 
 const handleItemSelected = (item) => {
@@ -11,6 +9,6 @@ const handleItemSelected = (item) => {
 setMyItem(item.id);
 };
 
-<SimpleSelectComponent onItemSelected={handleItemSelected} list={CartesAchetees}
+<SimpleSelectComponent onItemSelected={handleItemSelected} list={myList}
 placeholder={'Select'}
 />
